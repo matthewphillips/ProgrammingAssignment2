@@ -8,7 +8,7 @@ The makeCacheMatrix objects stores a matrix, potentially that matrix's
 inverse, plus getter and setter methods for the matrix and it's inverse.
 To retrieve the original matrix the 'object-name'$get() must be called. 
 However, while the inverse can be retrieved through the
-'object-name'$get, it can also be easily retrieved by
+'object-name'$getinv(), it can also be easily retrieved by
 passing the object to the cacheSolve function.
 
 The object can have its inverse manually set with the 
